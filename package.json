@@ -1,0 +1,28 @@
+{
+  "name": "nodeproof",
+  "version": "1.2.3",
+  "description": "prueba de que funciona servidor creado ",
+  "main": "index2.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeraldinCasas/BasicNodeJS.git"
+  },
+  "keywords": [
+    "server",
+    "laboratoria",
+    "yeraldin"
+  ],
+  "author": "YeraldinCasas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeraldinCasas/BasicNodeJS/issues"
+  },
+  "homepage": "https://github.com/YeraldinCasas/BasicNodeJS#readme"
+}

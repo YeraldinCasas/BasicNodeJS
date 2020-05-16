@@ -1,5 +1,5 @@
 
-//const operations1 = { };
+const operations1 = { };
 
 
 function add (a, b) {
@@ -22,23 +22,22 @@ function divide (a, b) {
     }
 }
 
-exports.add=add;
+/* exports.add=add;
 exports.substrac = substrac;
 exports.multiply = multiply;
-exports.divide = divide;
+exports.divide = divide; //Exporta solo una propiedad del objeto 
+ */
 
-
-/* operations1.add = add;
+ operations1.add = add;
 operations1.substrac = substrac;
 operations1.multiply = multiply;
-operations1,divide = divide;
+operations1.divide = divide;
 
-module.exports = operations1; */
+module.exports = operations1; //Exporta el objeto completo, funciones, variables 
 
-/* function hello (name) {
+/* 
+function hello (name) {
     console.log("Hola" + name)
 }
 
-module.exports = hello */
-
-
+module.exports = hello  */
